@@ -1,0 +1,1116 @@
+=head1 Introspect
+
+=head2 Constructor Arguments
+
+=head3 own public
+
+=head4 methods_private
+
+=head4 accessors
+
+=head4 all_methods
+
+=head4 methods_public
+
+=head4 attributes
+
+=head4 all_requires
+
+=head4 requires_private
+
+=head4 inherits
+
+=head4 classname
+
+=head4 composes
+
+=head4 metaclass
+
+=head4 requires_public
+
+=head4 constructorargs
+
+=head2 Attributes
+
+=head3 own public
+
+=head4 all_requires
+
+=head4 attributes
+
+=head4 methods_public
+
+=head4 all_methods
+
+=head4 methods_private
+
+=head4 accessors
+
+=head4 constructorargs
+
+=head4 requires_public
+
+=head4 composes
+
+=head4 metaclass
+
+=head4 classname
+
+=head4 inherits
+
+=head4 requires_private
+
+=head2 Attribute Accessors
+
+=head3 own public
+
+=head4 requires_public
+
+=head4 constructorargs
+
+=head4 metaclass
+
+=head4 composes
+
+=head4 classname
+
+=head4 inherits
+
+=head4 requires_private
+
+=head4 all_requires
+
+=head4 attributes
+
+=head4 methods_public
+
+=head4 methods_private
+
+=head4 accessors
+
+=head4 all_methods
+
+=head2 Methods
+
+=head3 own public
+
+=head4 BUILDALL
+
+=head4 BUILDARGS
+
+=head4 DEMOLISHALL
+
+=head4 DESTROY
+
+=head4 DOES
+
+=head4 VERSION
+
+=head4 accessors
+
+=head4 accessors_as_hash
+
+=head4 all_methods
+
+=head4 all_requires
+
+=head4 as_hash
+
+=head4 attributes
+
+=head4 attributes_as_hash
+
+=head4 can
+
+=head4 classname
+
+=head4 composes
+
+=head4 constructorargs
+
+=head4 constructorargs_as_hash
+
+=head4 does
+
+=head4 dump
+
+=head4 for_class
+
+=head4 inherits
+
+=head4 isa
+
+=head4 meta
+
+=head4 metaclass
+
+=head4 methods_as_hash
+
+=head4 methods_private
+
+=head4 methods_public
+
+=head4 new
+
+=head4 requires_as_hash
+
+=head4 requires_private
+
+=head4 requires_public
+
+=head3 own private
+
+=head4 _build_accessors
+
+=head4 _build_attributes
+
+=head4 _build_constructorargs
+
+=head4 _cache_or_construct
+
+=head4 _cc_die
+
+=head4 _cc_get_attribute_methods
+
+=head4 _cc_get_definition_context
+
+=head4 _cc_get_metaattribute
+
+=head4 _cc_get_metaclass
+
+=head4 _cc_unknown_definition_context
+
+=head4 _cc_warn
+
+=head4 _get_metaclass
+
+=head4 _jobname
+
+=head4 _require_module
+
+=head4 _scrape_all_methods
+
+=head4 _scrape_all_requires
+
+=head4 _scrape_composes
+
+=head4 _scrape_inherits
+
+=head4 _scrape_methods_private
+
+=head4 _scrape_methods_public
+
+=head4 _scrape_requires_private
+
+=head4 _scrape_requires_public
+
+=head1 Introspect::Accessors
+
+=head2 Constructor Arguments
+
+=head3 own public
+
+=head4 accessor_stash
+
+=head3 inherited public
+
+=head4 classname
+
+=head4 stash
+
+=head4 metaclass
+
+=head2 Attributes
+
+=head3 own public
+
+=head4 accessor_stash
+
+=head3 inherited public
+
+=head4 metaclass
+
+=head4 stash
+
+=head4 classname
+
+=head2 Attribute Accessors
+
+=head3 own public
+
+=head4 accessor_stash
+
+=head3 inherited public
+
+=head4 metaclass
+
+=head4 stash
+
+=head4 classname
+
+=head2 Methods
+
+=head3 own public
+
+=head4 BUILDALL
+
+=head4 BUILDARGS
+
+=head4 DEMOLISHALL
+
+=head4 DESTROY
+
+=head4 DOES
+
+=head4 VERSION
+
+=head4 accessor_stash
+
+=head4 all
+
+=head4 all_accessor_names
+
+=head4 all_accessors
+
+=head4 all_attribute_names
+
+=head4 all_attributes
+
+=head4 as_hash
+
+=head4 can
+
+=head4 classname
+
+=head4 does
+
+=head4 dump
+
+=head4 for_class
+
+=head4 inflate_attr
+
+=head4 inherited_private
+
+=head4 inherited_private_hash
+
+=head4 inherited_public
+
+=head4 inherited_public_hash
+
+=head4 isa
+
+=head4 meta
+
+=head4 metaclass
+
+=head4 new
+
+=head4 own_private
+
+=head4 own_private_hash
+
+=head4 own_public
+
+=head4 own_public_hash
+
+=head4 stash
+
+=head3 own private
+
+=head4 _build_accessor_stash
+
+=head4 _build_stash
+
+=head4 _cache_or_construct
+
+=head4 _cc_die
+
+=head4 _cc_get_attribute_methods
+
+=head4 _cc_get_definition_context
+
+=head4 _cc_get_metaattribute
+
+=head4 _cc_get_metaclass
+
+=head4 _cc_unknown_definition_context
+
+=head4 _cc_warn
+
+=head4 _get_all_attribute_names
+
+=head4 _get_metaclass
+
+=head4 _jobname
+
+=head4 _require_module
+
+=head4 _to_hash
+
+=head1 Introspect::Attr
+
+=head2 Constructor Arguments
+
+=head3 own public
+
+=head4 is_own
+
+=head4 definition_context
+
+=head4 classname
+
+=head4 metaattribute
+
+=head4 metaclass
+
+=head4 is_public
+
+=head4 attrname
+
+=head2 Attributes
+
+=head3 own public
+
+=head4 is_own
+
+=head4 metaattribute
+
+=head4 definition_context
+
+=head4 classname
+
+=head4 metaclass
+
+=head4 is_public
+
+=head4 attrname
+
+=head2 Attribute Accessors
+
+=head3 own public
+
+=head4 is_public
+
+=head4 metaclass
+
+=head4 attrname
+
+=head4 definition_context
+
+=head4 metaattribute
+
+=head4 classname
+
+=head4 is_own
+
+=head2 Methods
+
+=head3 own public
+
+=head4 BUILDALL
+
+=head4 BUILDARGS
+
+=head4 DEMOLISHALL
+
+=head4 DESTROY
+
+=head4 DOES
+
+=head4 VERSION
+
+=head4 accessors
+
+=head4 attrname
+
+=head4 can
+
+=head4 classname
+
+=head4 definition_context
+
+=head4 does
+
+=head4 dump
+
+=head4 explanation
+
+=head4 for_attribute
+
+=head4 inflate_accessor
+
+=head4 is_inherited
+
+=head4 is_own
+
+=head4 is_private
+
+=head4 is_public
+
+=head4 isa
+
+=head4 long_explanation
+
+=head4 meta
+
+=head4 metaattribute
+
+=head4 metaclass
+
+=head4 new
+
+=head4 short_explanation
+
+=head3 own private
+
+=head4 _build_is_own
+
+=head4 _build_is_public
+
+=head4 _cache_or_construct
+
+=head4 _cc_die
+
+=head4 _cc_get_attribute_methods
+
+=head4 _cc_get_definition_context
+
+=head4 _cc_get_metaattribute
+
+=head4 _cc_get_metaclass
+
+=head4 _cc_unknown_definition_context
+
+=head4 _cc_warn
+
+=head4 _get_definition_context
+
+=head4 _get_metaattribute
+
+=head4 _get_metaclass
+
+=head4 _jobname
+
+=head4 _require_module
+
+=head4 _unknown_definition_context
+
+=head1 Introspect::Attr::Accessor
+
+=head2 Constructor Arguments
+
+=head3 own public
+
+=head4 is_public
+
+=head4 metaclass
+
+=head4 classname
+
+=head4 definition_context
+
+=head4 metaaccessor
+
+=head4 accessorname
+
+=head4 attrname
+
+=head4 metaattribute
+
+=head4 is_own
+
+=head2 Attributes
+
+=head3 own public
+
+=head4 is_public
+
+=head4 metaclass
+
+=head4 metaaccessor
+
+=head4 classname
+
+=head4 definition_context
+
+=head4 attrname
+
+=head4 accessorname
+
+=head4 is_own
+
+=head4 metaattribute
+
+=head2 Attribute Accessors
+
+=head3 own public
+
+=head4 metaclass
+
+=head4 is_public
+
+=head4 metaaccessor
+
+=head4 definition_context
+
+=head4 classname
+
+=head4 attrname
+
+=head4 accessorname
+
+=head4 is_own
+
+=head4 metaattribute
+
+=head2 Methods
+
+=head3 own public
+
+=head4 BUILDALL
+
+=head4 BUILDARGS
+
+=head4 DEMOLISHALL
+
+=head4 DESTROY
+
+=head4 DOES
+
+=head4 VERSION
+
+=head4 accessorname
+
+=head4 attrname
+
+=head4 can
+
+=head4 classname
+
+=head4 definition_context
+
+=head4 does
+
+=head4 dump
+
+=head4 explanation
+
+=head4 for_accessor
+
+=head4 is_inherited
+
+=head4 is_own
+
+=head4 is_private
+
+=head4 is_public
+
+=head4 isa
+
+=head4 long_explanation
+
+=head4 meta
+
+=head4 metaaccessor
+
+=head4 metaattribute
+
+=head4 metaclass
+
+=head4 new
+
+=head4 short_explanation
+
+=head4 terse_explanation
+
+=head3 own private
+
+=head4 _build_is_own
+
+=head4 _build_is_public
+
+=head4 _cache_or_construct
+
+=head4 _cc_die
+
+=head4 _cc_get_attribute_methods
+
+=head4 _cc_get_definition_context
+
+=head4 _cc_get_metaattribute
+
+=head4 _cc_get_metaclass
+
+=head4 _cc_unknown_definition_context
+
+=head4 _cc_warn
+
+=head4 _get_attribute_methods
+
+=head4 _get_definition_context
+
+=head4 _get_metaaccessor
+
+=head4 _get_metaattribute
+
+=head4 _get_metaclass
+
+=head4 _jobname
+
+=head4 _require_module
+
+=head1 Introspect::Attr::ConstructorArg
+
+=head2 Constructor Arguments
+
+=head3 own public
+
+=head4 is_own
+
+=head4 metaattribute
+
+=head4 attrname
+
+=head4 constructorarg
+
+=head4 classname
+
+=head4 definition_context
+
+=head4 is_public
+
+=head4 metaclass
+
+=head2 Attributes
+
+=head3 own public
+
+=head4 attrname
+
+=head4 is_own
+
+=head4 metaattribute
+
+=head4 metaclass
+
+=head4 is_public
+
+=head4 constructorarg
+
+=head4 classname
+
+=head4 definition_context
+
+=head2 Attribute Accessors
+
+=head3 own public
+
+=head4 is_public
+
+=head4 metaclass
+
+=head4 classname
+
+=head4 definition_context
+
+=head4 constructorarg
+
+=head4 attrname
+
+=head4 metaattribute
+
+=head4 is_own
+
+=head2 Methods
+
+=head3 own public
+
+=head4 BUILDALL
+
+=head4 BUILDARGS
+
+=head4 DEMOLISHALL
+
+=head4 DESTROY
+
+=head4 DOES
+
+=head4 VERSION
+
+=head4 attrname
+
+=head4 can
+
+=head4 classname
+
+=head4 constructorarg
+
+=head4 definition_context
+
+=head4 does
+
+=head4 dump
+
+=head4 explanation
+
+=head4 for_constructorarg
+
+=head4 is_inherited
+
+=head4 is_own
+
+=head4 is_private
+
+=head4 is_public
+
+=head4 isa
+
+=head4 long_explanation
+
+=head4 meta
+
+=head4 metaattribute
+
+=head4 metaclass
+
+=head4 new
+
+=head4 short_explanation
+
+=head4 terse_explanation
+
+=head3 own private
+
+=head4 _build_is_own
+
+=head4 _build_is_public
+
+=head4 _cache_or_construct
+
+=head4 _cc_die
+
+=head4 _cc_get_attribute_methods
+
+=head4 _cc_get_definition_context
+
+=head4 _cc_get_metaattribute
+
+=head4 _cc_get_metaclass
+
+=head4 _cc_unknown_definition_context
+
+=head4 _cc_warn
+
+=head4 _get_definition_context
+
+=head4 _get_metaaccessor
+
+=head4 _get_metaattribute
+
+=head4 _get_metaclass
+
+=head4 _jobname
+
+=head4 _require_module
+
+=head1 Introspect::Attrs
+
+=head2 Constructor Arguments
+
+=head3 own public
+
+=head4 metaclass
+
+=head4 stash
+
+=head4 classname
+
+=head2 Attributes
+
+=head3 own public
+
+=head4 stash
+
+=head4 classname
+
+=head4 metaclass
+
+=head2 Attribute Accessors
+
+=head3 own public
+
+=head4 classname
+
+=head4 stash
+
+=head4 metaclass
+
+=head2 Methods
+
+=head3 own public
+
+=head4 BUILDALL
+
+=head4 BUILDARGS
+
+=head4 DEMOLISHALL
+
+=head4 DESTROY
+
+=head4 DOES
+
+=head4 VERSION
+
+=head4 all
+
+=head4 all_attribute_names
+
+=head4 all_attributes
+
+=head4 as_hash
+
+=head4 can
+
+=head4 classname
+
+=head4 does
+
+=head4 dump
+
+=head4 for_class
+
+=head4 inflate_attr
+
+=head4 inherited_private
+
+=head4 inherited_private_hash
+
+=head4 inherited_public
+
+=head4 inherited_public_hash
+
+=head4 isa
+
+=head4 meta
+
+=head4 metaclass
+
+=head4 new
+
+=head4 own_private
+
+=head4 own_private_hash
+
+=head4 own_public
+
+=head4 own_public_hash
+
+=head4 stash
+
+=head3 own private
+
+=head4 _build_stash
+
+=head4 _cache_or_construct
+
+=head4 _cc_die
+
+=head4 _cc_get_attribute_methods
+
+=head4 _cc_get_definition_context
+
+=head4 _cc_get_metaattribute
+
+=head4 _cc_get_metaclass
+
+=head4 _cc_unknown_definition_context
+
+=head4 _cc_warn
+
+=head4 _get_all_attribute_names
+
+=head4 _get_metaclass
+
+=head4 _jobname
+
+=head4 _require_module
+
+=head4 _to_hash
+
+=head1 Introspect::Common
+
+=head1 Introspect::ConstructorArgs
+
+=head2 Constructor Arguments
+
+=head3 own public
+
+=head4 constructor_arg_stash
+
+=head3 inherited public
+
+=head4 classname
+
+=head4 stash
+
+=head4 metaclass
+
+=head2 Attributes
+
+=head3 own public
+
+=head4 constructor_arg_stash
+
+=head3 inherited public
+
+=head4 metaclass
+
+=head4 classname
+
+=head4 stash
+
+=head2 Attribute Accessors
+
+=head3 own public
+
+=head4 constructor_arg_stash
+
+=head3 inherited public
+
+=head4 metaclass
+
+=head4 classname
+
+=head4 stash
+
+=head2 Methods
+
+=head3 own public
+
+=head4 BUILDALL
+
+=head4 BUILDARGS
+
+=head4 DEMOLISHALL
+
+=head4 DESTROY
+
+=head4 DOES
+
+=head4 VERSION
+
+=head4 all
+
+=head4 all_accessor_names
+
+=head4 all_accessors
+
+=head4 all_attribute_names
+
+=head4 all_attributes
+
+=head4 as_hash
+
+=head4 can
+
+=head4 classname
+
+=head4 constructor_arg_stash
+
+=head4 does
+
+=head4 dump
+
+=head4 for_class
+
+=head4 inflate_attr
+
+=head4 inherited_private
+
+=head4 inherited_private_hash
+
+=head4 inherited_public
+
+=head4 inherited_public_hash
+
+=head4 isa
+
+=head4 meta
+
+=head4 metaclass
+
+=head4 new
+
+=head4 own_private
+
+=head4 own_private_hash
+
+=head4 own_public
+
+=head4 own_public_hash
+
+=head4 stash
+
+=head3 own private
+
+=head4 _build_constructor_arg_stash
+
+=head4 _build_stash
+
+=head4 _cache_or_construct
+
+=head4 _cc_die
+
+=head4 _cc_get_attribute_methods
+
+=head4 _cc_get_definition_context
+
+=head4 _cc_get_metaattribute
+
+=head4 _cc_get_metaclass
+
+=head4 _cc_unknown_definition_context
+
+=head4 _cc_warn
+
+=head4 _get_all_attribute_names
+
+=head4 _get_metaclass
+
+=head4 _jobname
+
+=head4 _require_module
+
+=head4 _to_hash
+
+=head1 Moose::Object
+
+=head2 Methods
+
+=head3 own public
+
+=head4 BUILDALL
+
+=head4 BUILDARGS
+
+=head4 DEMOLISHALL
+
+=head4 DESTROY
+
+=head4 DOES
+
+=head4 VERSION
+
+=head4 can
+
+=head4 does
+
+=head4 dump
+
+=head4 isa
+
+=head4 meta
+
+=head4 new
+

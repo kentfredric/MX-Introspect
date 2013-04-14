@@ -1,0 +1,1115 @@
+# Introspect
+
+## Constructor Arguments
+
+### own public
+
+#### methods\_private
+
+#### accessors
+
+#### all\_methods
+
+#### methods\_public
+
+#### attributes
+
+#### all\_requires
+
+#### requires\_private
+
+#### inherits
+
+#### classname
+
+#### composes
+
+#### metaclass
+
+#### requires\_public
+
+#### constructorargs
+
+## Attributes
+
+### own public
+
+#### all\_requires
+
+#### attributes
+
+#### methods\_public
+
+#### all\_methods
+
+#### methods\_private
+
+#### accessors
+
+#### constructorargs
+
+#### requires\_public
+
+#### composes
+
+#### metaclass
+
+#### classname
+
+#### inherits
+
+#### requires\_private
+
+## Attribute Accessors
+
+### own public
+
+#### requires\_public
+
+#### constructorargs
+
+#### metaclass
+
+#### composes
+
+#### classname
+
+#### inherits
+
+#### requires\_private
+
+#### all\_requires
+
+#### attributes
+
+#### methods\_public
+
+#### methods\_private
+
+#### accessors
+
+#### all\_methods
+
+## Methods
+
+### own public
+
+#### BUILDALL
+
+#### BUILDARGS
+
+#### DEMOLISHALL
+
+#### DESTROY
+
+#### DOES
+
+#### VERSION
+
+#### accessors
+
+#### accessors\_as\_hash
+
+#### all\_methods
+
+#### all\_requires
+
+#### as\_hash
+
+#### attributes
+
+#### attributes\_as\_hash
+
+#### can
+
+#### classname
+
+#### composes
+
+#### constructorargs
+
+#### constructorargs\_as\_hash
+
+#### does
+
+#### dump
+
+#### for\_class
+
+#### inherits
+
+#### isa
+
+#### meta
+
+#### metaclass
+
+#### methods\_as\_hash
+
+#### methods\_private
+
+#### methods\_public
+
+#### new
+
+#### requires\_as\_hash
+
+#### requires\_private
+
+#### requires\_public
+
+### own private
+
+#### \_build\_accessors
+
+#### \_build\_attributes
+
+#### \_build\_constructorargs
+
+#### \_cache\_or\_construct
+
+#### \_cc\_die
+
+#### \_cc\_get\_attribute\_methods
+
+#### \_cc\_get\_definition\_context
+
+#### \_cc\_get\_metaattribute
+
+#### \_cc\_get\_metaclass
+
+#### \_cc\_unknown\_definition\_context
+
+#### \_cc\_warn
+
+#### \_get\_metaclass
+
+#### \_jobname
+
+#### \_require\_module
+
+#### \_scrape\_all\_methods
+
+#### \_scrape\_all\_requires
+
+#### \_scrape\_composes
+
+#### \_scrape\_inherits
+
+#### \_scrape\_methods\_private
+
+#### \_scrape\_methods\_public
+
+#### \_scrape\_requires\_private
+
+#### \_scrape\_requires\_public
+
+# Introspect::Accessors
+
+## Constructor Arguments
+
+### own public
+
+#### accessor\_stash
+
+### inherited public
+
+#### classname
+
+#### stash
+
+#### metaclass
+
+## Attributes
+
+### own public
+
+#### accessor\_stash
+
+### inherited public
+
+#### metaclass
+
+#### stash
+
+#### classname
+
+## Attribute Accessors
+
+### own public
+
+#### accessor\_stash
+
+### inherited public
+
+#### metaclass
+
+#### stash
+
+#### classname
+
+## Methods
+
+### own public
+
+#### BUILDALL
+
+#### BUILDARGS
+
+#### DEMOLISHALL
+
+#### DESTROY
+
+#### DOES
+
+#### VERSION
+
+#### accessor\_stash
+
+#### all
+
+#### all\_accessor\_names
+
+#### all\_accessors
+
+#### all\_attribute\_names
+
+#### all\_attributes
+
+#### as\_hash
+
+#### can
+
+#### classname
+
+#### does
+
+#### dump
+
+#### for\_class
+
+#### inflate\_attr
+
+#### inherited\_private
+
+#### inherited\_private\_hash
+
+#### inherited\_public
+
+#### inherited\_public\_hash
+
+#### isa
+
+#### meta
+
+#### metaclass
+
+#### new
+
+#### own\_private
+
+#### own\_private\_hash
+
+#### own\_public
+
+#### own\_public\_hash
+
+#### stash
+
+### own private
+
+#### \_build\_accessor\_stash
+
+#### \_build\_stash
+
+#### \_cache\_or\_construct
+
+#### \_cc\_die
+
+#### \_cc\_get\_attribute\_methods
+
+#### \_cc\_get\_definition\_context
+
+#### \_cc\_get\_metaattribute
+
+#### \_cc\_get\_metaclass
+
+#### \_cc\_unknown\_definition\_context
+
+#### \_cc\_warn
+
+#### \_get\_all\_attribute\_names
+
+#### \_get\_metaclass
+
+#### \_jobname
+
+#### \_require\_module
+
+#### \_to\_hash
+
+# Introspect::Attr
+
+## Constructor Arguments
+
+### own public
+
+#### is\_own
+
+#### definition\_context
+
+#### classname
+
+#### metaattribute
+
+#### metaclass
+
+#### is\_public
+
+#### attrname
+
+## Attributes
+
+### own public
+
+#### is\_own
+
+#### metaattribute
+
+#### definition\_context
+
+#### classname
+
+#### metaclass
+
+#### is\_public
+
+#### attrname
+
+## Attribute Accessors
+
+### own public
+
+#### is\_public
+
+#### metaclass
+
+#### attrname
+
+#### definition\_context
+
+#### metaattribute
+
+#### classname
+
+#### is\_own
+
+## Methods
+
+### own public
+
+#### BUILDALL
+
+#### BUILDARGS
+
+#### DEMOLISHALL
+
+#### DESTROY
+
+#### DOES
+
+#### VERSION
+
+#### accessors
+
+#### attrname
+
+#### can
+
+#### classname
+
+#### definition\_context
+
+#### does
+
+#### dump
+
+#### explanation
+
+#### for\_attribute
+
+#### inflate\_accessor
+
+#### is\_inherited
+
+#### is\_own
+
+#### is\_private
+
+#### is\_public
+
+#### isa
+
+#### long\_explanation
+
+#### meta
+
+#### metaattribute
+
+#### metaclass
+
+#### new
+
+#### short\_explanation
+
+### own private
+
+#### \_build\_is\_own
+
+#### \_build\_is\_public
+
+#### \_cache\_or\_construct
+
+#### \_cc\_die
+
+#### \_cc\_get\_attribute\_methods
+
+#### \_cc\_get\_definition\_context
+
+#### \_cc\_get\_metaattribute
+
+#### \_cc\_get\_metaclass
+
+#### \_cc\_unknown\_definition\_context
+
+#### \_cc\_warn
+
+#### \_get\_definition\_context
+
+#### \_get\_metaattribute
+
+#### \_get\_metaclass
+
+#### \_jobname
+
+#### \_require\_module
+
+#### \_unknown\_definition\_context
+
+# Introspect::Attr::Accessor
+
+## Constructor Arguments
+
+### own public
+
+#### is\_public
+
+#### metaclass
+
+#### classname
+
+#### definition\_context
+
+#### metaaccessor
+
+#### accessorname
+
+#### attrname
+
+#### metaattribute
+
+#### is\_own
+
+## Attributes
+
+### own public
+
+#### is\_public
+
+#### metaclass
+
+#### metaaccessor
+
+#### classname
+
+#### definition\_context
+
+#### attrname
+
+#### accessorname
+
+#### is\_own
+
+#### metaattribute
+
+## Attribute Accessors
+
+### own public
+
+#### metaclass
+
+#### is\_public
+
+#### metaaccessor
+
+#### definition\_context
+
+#### classname
+
+#### attrname
+
+#### accessorname
+
+#### is\_own
+
+#### metaattribute
+
+## Methods
+
+### own public
+
+#### BUILDALL
+
+#### BUILDARGS
+
+#### DEMOLISHALL
+
+#### DESTROY
+
+#### DOES
+
+#### VERSION
+
+#### accessorname
+
+#### attrname
+
+#### can
+
+#### classname
+
+#### definition\_context
+
+#### does
+
+#### dump
+
+#### explanation
+
+#### for\_accessor
+
+#### is\_inherited
+
+#### is\_own
+
+#### is\_private
+
+#### is\_public
+
+#### isa
+
+#### long\_explanation
+
+#### meta
+
+#### metaaccessor
+
+#### metaattribute
+
+#### metaclass
+
+#### new
+
+#### short\_explanation
+
+#### terse\_explanation
+
+### own private
+
+#### \_build\_is\_own
+
+#### \_build\_is\_public
+
+#### \_cache\_or\_construct
+
+#### \_cc\_die
+
+#### \_cc\_get\_attribute\_methods
+
+#### \_cc\_get\_definition\_context
+
+#### \_cc\_get\_metaattribute
+
+#### \_cc\_get\_metaclass
+
+#### \_cc\_unknown\_definition\_context
+
+#### \_cc\_warn
+
+#### \_get\_attribute\_methods
+
+#### \_get\_definition\_context
+
+#### \_get\_metaaccessor
+
+#### \_get\_metaattribute
+
+#### \_get\_metaclass
+
+#### \_jobname
+
+#### \_require\_module
+
+# Introspect::Attr::ConstructorArg
+
+## Constructor Arguments
+
+### own public
+
+#### is\_own
+
+#### metaattribute
+
+#### attrname
+
+#### constructorarg
+
+#### classname
+
+#### definition\_context
+
+#### is\_public
+
+#### metaclass
+
+## Attributes
+
+### own public
+
+#### attrname
+
+#### is\_own
+
+#### metaattribute
+
+#### metaclass
+
+#### is\_public
+
+#### constructorarg
+
+#### classname
+
+#### definition\_context
+
+## Attribute Accessors
+
+### own public
+
+#### is\_public
+
+#### metaclass
+
+#### classname
+
+#### definition\_context
+
+#### constructorarg
+
+#### attrname
+
+#### metaattribute
+
+#### is\_own
+
+## Methods
+
+### own public
+
+#### BUILDALL
+
+#### BUILDARGS
+
+#### DEMOLISHALL
+
+#### DESTROY
+
+#### DOES
+
+#### VERSION
+
+#### attrname
+
+#### can
+
+#### classname
+
+#### constructorarg
+
+#### definition\_context
+
+#### does
+
+#### dump
+
+#### explanation
+
+#### for\_constructorarg
+
+#### is\_inherited
+
+#### is\_own
+
+#### is\_private
+
+#### is\_public
+
+#### isa
+
+#### long\_explanation
+
+#### meta
+
+#### metaattribute
+
+#### metaclass
+
+#### new
+
+#### short\_explanation
+
+#### terse\_explanation
+
+### own private
+
+#### \_build\_is\_own
+
+#### \_build\_is\_public
+
+#### \_cache\_or\_construct
+
+#### \_cc\_die
+
+#### \_cc\_get\_attribute\_methods
+
+#### \_cc\_get\_definition\_context
+
+#### \_cc\_get\_metaattribute
+
+#### \_cc\_get\_metaclass
+
+#### \_cc\_unknown\_definition\_context
+
+#### \_cc\_warn
+
+#### \_get\_definition\_context
+
+#### \_get\_metaaccessor
+
+#### \_get\_metaattribute
+
+#### \_get\_metaclass
+
+#### \_jobname
+
+#### \_require\_module
+
+# Introspect::Attrs
+
+## Constructor Arguments
+
+### own public
+
+#### metaclass
+
+#### stash
+
+#### classname
+
+## Attributes
+
+### own public
+
+#### stash
+
+#### classname
+
+#### metaclass
+
+## Attribute Accessors
+
+### own public
+
+#### classname
+
+#### stash
+
+#### metaclass
+
+## Methods
+
+### own public
+
+#### BUILDALL
+
+#### BUILDARGS
+
+#### DEMOLISHALL
+
+#### DESTROY
+
+#### DOES
+
+#### VERSION
+
+#### all
+
+#### all\_attribute\_names
+
+#### all\_attributes
+
+#### as\_hash
+
+#### can
+
+#### classname
+
+#### does
+
+#### dump
+
+#### for\_class
+
+#### inflate\_attr
+
+#### inherited\_private
+
+#### inherited\_private\_hash
+
+#### inherited\_public
+
+#### inherited\_public\_hash
+
+#### isa
+
+#### meta
+
+#### metaclass
+
+#### new
+
+#### own\_private
+
+#### own\_private\_hash
+
+#### own\_public
+
+#### own\_public\_hash
+
+#### stash
+
+### own private
+
+#### \_build\_stash
+
+#### \_cache\_or\_construct
+
+#### \_cc\_die
+
+#### \_cc\_get\_attribute\_methods
+
+#### \_cc\_get\_definition\_context
+
+#### \_cc\_get\_metaattribute
+
+#### \_cc\_get\_metaclass
+
+#### \_cc\_unknown\_definition\_context
+
+#### \_cc\_warn
+
+#### \_get\_all\_attribute\_names
+
+#### \_get\_metaclass
+
+#### \_jobname
+
+#### \_require\_module
+
+#### \_to\_hash
+
+# Introspect::Common
+
+# Introspect::ConstructorArgs
+
+## Constructor Arguments
+
+### own public
+
+#### constructor\_arg\_stash
+
+### inherited public
+
+#### classname
+
+#### stash
+
+#### metaclass
+
+## Attributes
+
+### own public
+
+#### constructor\_arg\_stash
+
+### inherited public
+
+#### metaclass
+
+#### classname
+
+#### stash
+
+## Attribute Accessors
+
+### own public
+
+#### constructor\_arg\_stash
+
+### inherited public
+
+#### metaclass
+
+#### classname
+
+#### stash
+
+## Methods
+
+### own public
+
+#### BUILDALL
+
+#### BUILDARGS
+
+#### DEMOLISHALL
+
+#### DESTROY
+
+#### DOES
+
+#### VERSION
+
+#### all
+
+#### all\_accessor\_names
+
+#### all\_accessors
+
+#### all\_attribute\_names
+
+#### all\_attributes
+
+#### as\_hash
+
+#### can
+
+#### classname
+
+#### constructor\_arg\_stash
+
+#### does
+
+#### dump
+
+#### for\_class
+
+#### inflate\_attr
+
+#### inherited\_private
+
+#### inherited\_private\_hash
+
+#### inherited\_public
+
+#### inherited\_public\_hash
+
+#### isa
+
+#### meta
+
+#### metaclass
+
+#### new
+
+#### own\_private
+
+#### own\_private\_hash
+
+#### own\_public
+
+#### own\_public\_hash
+
+#### stash
+
+### own private
+
+#### \_build\_constructor\_arg\_stash
+
+#### \_build\_stash
+
+#### \_cache\_or\_construct
+
+#### \_cc\_die
+
+#### \_cc\_get\_attribute\_methods
+
+#### \_cc\_get\_definition\_context
+
+#### \_cc\_get\_metaattribute
+
+#### \_cc\_get\_metaclass
+
+#### \_cc\_unknown\_definition\_context
+
+#### \_cc\_warn
+
+#### \_get\_all\_attribute\_names
+
+#### \_get\_metaclass
+
+#### \_jobname
+
+#### \_require\_module
+
+#### \_to\_hash
+
+# Moose::Object
+
+## Methods
+
+### own public
+
+#### BUILDALL
+
+#### BUILDARGS
+
+#### DEMOLISHALL
+
+#### DESTROY
+
+#### DOES
+
+#### VERSION
+
+#### can
+
+#### does
+
+#### dump
+
+#### isa
+
+#### meta
+
+#### new
