@@ -33,7 +33,7 @@ sub _build_accessor_stash {
   return $stash;
 }
 
-sub all {  values %{ $_[0]->accessor_stash } }
+sub all                { values %{ $_[0]->accessor_stash } }
 sub all_accessors      { values %{ $_[0]->accessor_stash } }
 sub all_accessor_names { keys %{ $_[0]->accessor_stash } }
 
@@ -41,7 +41,5 @@ sub _to_hash {
   shift;
   return { map { ( $_->accessorname, $_->explanation ) } @_ };
 }
-
-
 
 1;

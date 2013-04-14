@@ -26,17 +26,15 @@ sub _build_constructor_arg_stash {
   my $stash = {};
   for my $attr ( $_[0]->all_attributes ) {
     if ( defined $attr->metaattribute->init_arg ) {
-        $stash->{ $attr->metaattribute->init_arg } = Introspect::Attr::ConstructorArg->for_constructorarg( 
-            $_[0]->classname,
-            $attr->attrname,
-            $attr->metaattribute->init_arg,
-        );
+      $stash->{ $attr->metaattribute->init_arg } =
+        Introspect::Attr::ConstructorArg->for_constructorarg( $_[0]->classname, $attr->attrname,
+        $attr->metaattribute->init_arg, );
     }
   }
   return $stash;
 }
 
-sub all {  values %{ $_[0]->constructor_arg_stash } }
+sub all                { values %{ $_[0]->constructor_arg_stash } }
 sub all_accessors      { values %{ $_[0]->constructor_arg_stash } }
 sub all_accessor_names { keys %{ $_[0]->constructor_arg_stash } }
 
@@ -44,7 +42,5 @@ sub _to_hash {
   shift;
   return { map { ( $_->constructorarg, $_->explanation ) } @_ };
 }
-
-
 
 1;
