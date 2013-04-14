@@ -3,7 +3,7 @@ use strict;
 use warnings;
 
 package Introspect::Common;
-use Moo::Role;
+use Moose::Role;
 
 requires '_jobname';
 

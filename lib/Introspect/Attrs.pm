@@ -1,5 +1,5 @@
 package Introspect::Attrs;
-use Moo;
+use Moose;
 
 with 'Introspect::Common';
 my $registry;

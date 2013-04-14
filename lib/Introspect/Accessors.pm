@@ -1,5 +1,5 @@
 package Introspect::Accessors;
-use Moo;
+use Moose;
 use Scalar::Util qw( blessed );
 
 extends 'Introspect::Attrs';

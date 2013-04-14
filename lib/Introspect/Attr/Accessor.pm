@@ -1,6 +1,6 @@
 package Introspect::Attr::Accessor;
 
-use Moo;
+use Moose;
 with 'Introspect::Common';
 
 use Path::Tiny qw( path );

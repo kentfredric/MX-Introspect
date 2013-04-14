@@ -3,7 +3,7 @@ use warnings;
 
 package Introspect;
 
-use Moo;
+use Moose;
 with 'Introspect::Common';
 use Path::Tiny qw( path );
 
@@ -92,11 +92,11 @@ sub _scrape_all_requires {
 }
 
 sub _scrape_methods_public {
-  return [ grep { $_ !~ /^_/ } @{ $_[0]->all_methods } ];
+  return [ sort grep { $_ !~ /^_/ } @{ $_[0]->all_methods } ];
 }
 
 sub _scrape_methods_private {
-  return [ grep { $_ =~ /^_/ } @{ $_[0]->all_methods } ];
+  return [ sort grep { $_ =~ /^_/ } @{ $_[0]->all_methods } ];
 }
 
 sub _scrape_requires_public {
